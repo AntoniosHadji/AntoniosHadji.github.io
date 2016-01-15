@@ -5,7 +5,7 @@ date:   2016-01-11 20:00:24 -0500
 categories: jekyll update
 ---
 
-This is the first post on my new jekyll-github powered site.  I've been using [markdown][md] for a variety of writing tasks in the pash few years.  It is a very natural way to write and it allows me to do all my writing in [vim][v], the same text editor I use for coding.  
+This is the first post on my new jekyll-github powered site.  I've been using [markdown][md] for a variety of writing tasks in the past few years.  It is a very natural way to write and it allows me to do all my writing in [vim][v], the same text editor I use for coding.  
 
 I learned to touch type in 2015.  So as I'm building muscle memory for typing it makes sense to me to use the same software for all my writing.  Jekyll lets me quickly write down my thoughts in markdown format, push to github, and I'm done sharing my thoughts with the whole world.
 
