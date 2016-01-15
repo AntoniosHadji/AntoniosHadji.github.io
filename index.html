@@ -1,79 +1,23 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="AntoniosHadji.GitHub.io : Entrepreneur constantly striving to improve everything I touch: Business Optimization, Technology, Mind &amp; Body Power.">
+<div class="home">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <h1 class="page-heading">Posts</h1>
 
-    <title>Antonios Hadjigeorgalis</title>
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  </head>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-  <body>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-      <header class="inner">
-        <a id="forkme_banner" href="https://github.com/AntoniosHadji">View on GitHub</a>
-
-        <h1 id="project_title">Antonios Hadjigeorgalis</h1>
-        <h2 id="project_tagline">Entrepreneur constantly striving to improve everything I touch: Business Optimization, Technology, Mind &amp; Body Power.</h2>
-
-      </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Hello!  Welcome to my future home page.</h3>
-        <h6>More content on the way soon</h6>
-        <p>To learn more about me, check out these links:</p>
-        <div>
-        <a href="https://twitter.com/AntoniosHadji" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @AntoniosHadji</a>
-        <script>
-        !function(d,s,id){
-          var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-          if(!d.getElementById(id)){
-            js=d.createElement(s);
-            js.id=id;
-            js.src=p+'://platform.twitter.com/widgets.js';
-            fjs.parentNode.insertBefore(js,fjs);
-          }
-        }(document, 'script', 'twitter-wjs');
-        </script>
-        </div>
-        <div>
-        <a href="http://www.linkedin.com/in/antoniosh">
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Antonios Hadjigeorgalis's profile on LinkedIn">
-        </a>
-        </div>
-        <div class="g-person" data-href="//plus.google.com/u/0/111527334926196358114" data-theme="dark" data-rel="author"></div>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-try {
-  var pageTracker = _gat._getTracker("UA-27514284-9");
-  pageTracker._trackPageview();
-} catch(err) {}
-    </script>
-
-
-  </body>
-</html>
+</div>
