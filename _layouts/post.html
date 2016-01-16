@@ -11,12 +11,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <div>
-    
-      {% include comments.html %}
-   {% if post.comments %}
-    {% else %}
-      <div>post.comments is returning false. this is where the comments should begin</div>
-    {% endif %}
-  </div>
 </article>
+<!--
+  vim: ft=liquid:
+-->
