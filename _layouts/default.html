@@ -11,13 +11,6 @@
       <div class="wrapper">
         {{ content }}
       </div>
-      {% include comments.html %}
-        {% if post.comments %}
-      {% else %}
-        <script> console.log({{post.comments}})</script>
-        <script> console.log({{page.comments}})</script>
-        <div>post.comments is returning false. this is where the comments should begin</div>
-      {% endif %}
     </div>
 
     {% include footer.html %}
