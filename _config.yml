@@ -18,6 +18,8 @@ twitter_username: AntoniosHadji
 github_username:  AntoniosHadji
 linkedin_username: AntoniosHadji
 google-plus_username: AntoniosHadjigeorgalis
+disqusid: antonioshadji
 # Build settings
 markdown: kramdown
-disqusid: antonioshadji
+
+permalink: :title/
