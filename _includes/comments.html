@@ -6,7 +6,7 @@
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
     var disqus_config = function () {
-      this.page.url = "{{ page.url }}";
+      this.page.url = "{{ site.url }}{{ page.url }}";
       this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
     };
     // var disqus_developer = 1;
@@ -25,7 +25,3 @@
 {% else %}
 <script>console.log("if condition is false");</script>
 {% endif %}
-
-<!--
-  vim: ft=liquid:
--->
