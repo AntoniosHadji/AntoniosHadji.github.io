@@ -26,7 +26,7 @@ prints 'Hi, Antonios' to STDOUT.
 
 The initial install was easy enough.  However, the urls were not setup as is commonly considered best practice for SEO purposes.  Wordpress does the same thing.  Why is the default not set up for best practices?
 
-To make the urls match the titles without and categories or dates, what is commonly referred to as 'pretty urls' I had to add the following line to the `_config.yml` file.
+To make the urls match the titles without any categories or dates, what is commonly referred to as 'pretty urls' I had to add the following line to the `_config.yml` file.
 
 {% highlight yaml %}
 permalink: :title/
