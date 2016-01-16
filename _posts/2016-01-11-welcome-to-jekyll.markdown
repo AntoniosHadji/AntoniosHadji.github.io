@@ -24,7 +24,7 @@ prints 'Hi, Antonios' to STDOUT.
 {% endhighlight %}
 
 ## Setting up Jekyll
-The first step was following the instructions at these two links:
+The first step was following the instructions at these two links:  
 - https://pages.github.com
 - https://jekyllrb.com/docs/quickstart/
 
