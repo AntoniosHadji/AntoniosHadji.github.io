@@ -11,7 +11,10 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  {% include comments.html %}
+  <div>
+    {% include comments.html %}
+  </div>
+  
 </article>
 <!--
   vim: ft=liquid:
