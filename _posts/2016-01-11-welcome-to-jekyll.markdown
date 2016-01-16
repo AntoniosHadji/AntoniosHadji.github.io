@@ -36,8 +36,10 @@ permalink: :title/
 Jekyll does not come with commenting capabilities built in.  Many people use Disqus and decided to do the same.  I found the documentation lacking in clarity as to how to set it up best.  Disqus site has code you can copy and paste.  There are two variables that you will need to set in this code.
 
 {% highlight liquid %}
+{% raw %}
 this.page.url = "{{ site.url }}{{ page.url }}";
 this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
+{% endraw %}
 {% endhighlight %}
 
 I set my disqus site id up in my `_config.yml` file 
