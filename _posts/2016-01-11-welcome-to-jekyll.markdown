@@ -25,8 +25,9 @@ prints 'Hi, Antonios' to STDOUT.
 
 ## Setting up Jekyll
 The first step was following the instructions at these two links:  
-- https://pages.github.com
-- https://jekyllrb.com/docs/quickstart/
+
+- [Github Pages](https://pages.github.com)
+- [Jekyl Quick Start](https://jekyllrb.com/docs/quickstart/)
 
 The initial install was easy enough.  However, the urls were not setup as is commonly considered best practice for SEO purposes.  Wordpress does the same thing.  Why is the default not set up for best practices?
 
