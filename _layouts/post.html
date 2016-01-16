@@ -12,6 +12,10 @@ layout: default
     {{ content }}
   </div>
   <div>
+    {% if post.comments %}
       {% include comments.html %}
+    {% else %}
+      <div>post.comments is returning false. this is where the comments should begin</div>
+    {% endif %}
   </div>
 </article>
