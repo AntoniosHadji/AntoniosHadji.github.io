@@ -38,7 +38,7 @@ Jekyll does not come with commenting capabilities built in.  Many people use Dis
 {% highlight liquid %}
 {% raw %}
 this.page.url = "{{ site.url }}{{ page.url }}";
-this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
+this.page.identifier = "{{ site.disqusid }}{{ page.url }}";
 {% endraw %}
 {% endhighlight %}
 

@@ -7,7 +7,7 @@
      */
     var disqus_config = function () {
       this.page.url = "{{ site.url }}{{ page.url }}";
-      this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
+      this.page.identifier = "{{ site.disqusid }}{{ page.url }}";
     };
     // set this variable to test on my dev machine
     // var disqus_developer = 1;
