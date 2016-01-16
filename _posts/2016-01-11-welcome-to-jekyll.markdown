@@ -24,6 +24,7 @@ print_hi('Antonios')
 prints 'Hi, Antonios' to STDOUT.
 {% endhighlight %}
 
+## Setting up Jekyll
 The initial install was easy enough.  However, the urls were not setup as is commonly considered best practice for SEO purposes.  Wordpress does the same thing.  Why is the default not set up for best practices?
 
 To make the urls match the titles without any categories or dates, what is commonly referred to as 'pretty urls' I had to add the following line to the `_config.yml` file.
@@ -32,6 +33,18 @@ To make the urls match the titles without any categories or dates, what is commo
 permalink: :title/
 {% endhighlight %}
 
+Jekyll does not come with commenting capabilities built in.  Many people use Disqus and decided to do the same.  I found the documentation lacking in clarity as to how to set it up best.  Disqus site has code you can copy and paste.  There are two variables that you will need to set in this code.
+
+{% highlight liquid %}
+this.page.url = "{{ site.url }}{{ page.url }}";
+this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
+{% endhighlight %}
+
+I set my disqus site id up in my `_config.yml` file 
+
+{% highlight yaml %}
+disqusid: antonioshadji
+{% endhighlight %}
 
 [md]: https://help.github.com/articles/github-flavored-markdown/
 [v]: http://www.vim.org/
