@@ -10,7 +10,6 @@ This is the first post on my new jekyll-github powered site.  I've been using [m
 
 I learned to touch type in 2015.  So as I'm building muscle memory for typing it makes sense to me to use the same software for all my writing.  Jekyll lets me quickly write down my thoughts in markdown format, push to github, and I'm done sharing my thoughts with the whole world.
 
-Stay tuned for more content in 2016 and feel free to reach out to me if you think I can help you solve a problem.
 
 Another feature I like:  
 Jekyll also offers powerful support for code snippets:
@@ -25,6 +24,10 @@ prints 'Hi, Antonios' to STDOUT.
 {% endhighlight %}
 
 ## Setting up Jekyll
+The first step was following the instructions at these two links:
+- https://pages.github.com
+- https://jekyllrb.com/docs/quickstart/
+
 The initial install was easy enough.  However, the urls were not setup as is commonly considered best practice for SEO purposes.  Wordpress does the same thing.  Why is the default not set up for best practices?
 
 To make the urls match the titles without any categories or dates, what is commonly referred to as 'pretty urls' I added the following line to the `_config.yml` file.
@@ -47,6 +50,8 @@ I set my disqus site id up in my `_config.yml` file
 {% highlight yaml %}
 disqusid: antonioshadji
 {% endhighlight %}
+
+Stay tuned for more content in 2016 and feel free to reach out to me if you think I can help you solve a problem.
 
 [md]: https://help.github.com/articles/github-flavored-markdown/
 [v]: http://www.vim.org/
