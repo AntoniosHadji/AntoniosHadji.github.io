@@ -11,7 +11,7 @@ This is the first post on my new jekyll-github powered site.  I've been using [m
 I learned to touch type in 2015.  So as I'm building muscle memory for typing it makes sense to me to use the same software for all my writing.  Jekyll lets me quickly write down my thoughts in markdown format, push to github, and I'm done sharing my thoughts with the whole world.
 
 
-Another feature I like:  
+Another nice feature:  
 Jekyll also offers powerful support for code snippets:
 
 {% highlight python %}
@@ -37,7 +37,7 @@ To make the urls match the titles without any categories or dates, what is commo
 permalink: :title/
 {% endhighlight %}
 
-Jekyll does not come with commenting capabilities built in.  Many people use Disqus and decided to do the same.  I found the documentation lacking in clarity as to how to set it up best.  Disqus site has code you can copy and paste.  There are two variables that you will need to set in this code.
+Jekyll does not come with commenting capabilities built in.  Many people use Disqus and I decided to do the same.  I found the documentation lacking in clarity as to how to set it up best.  Disqus site has code you can copy and paste.  There are two variables that you will need to set in this code.
 
 {% highlight liquid %}
 {% raw %}
