@@ -2,7 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-11 20:00:24 -0500
-categories: jekyll update
+categories: technology
+tags: jekyll
 comments: true
 ---
 
