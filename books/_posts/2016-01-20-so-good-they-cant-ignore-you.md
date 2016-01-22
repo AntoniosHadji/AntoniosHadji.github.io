@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "So Good They Can't Ignore You"
+date:   2016-01-20
+categories: books
+comments: true
+---
+
 # So Good They Can't Ignore You
 by Cal Newport
 
