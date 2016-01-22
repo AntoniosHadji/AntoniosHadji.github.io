@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-> [Dan Sullivan][dan] defines an **Entrepreneur** as:  
-> "Someone who is free to work when they want, free to work with whom they want, and free to earn an income that’s based entirely on their results."
+> **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
 
 > **Philosopher:** from the greek philosophos, meaning lover of wisdom.
 
@@ -19,6 +18,3 @@ permalink: /about/
 - I have an **abundant vision of the future**: I am inspired by what could be; a better product, a better team, a better life, or a better world.  
 - I am **analytical**: I search for reasons why things are the way they are. I uncover the essential facts needed for excellence in any endeavor.  
 - I am a **strategic thinker**: I quickly spot relevant patterns and issues. I consider alternative paths and determine the best, most efficient course of action to achieve the desired outcome.  
-
-
-[dan]: https://strategiccoach.com/bios/bio_entrepreneur_coach_dan_sullivan.html
