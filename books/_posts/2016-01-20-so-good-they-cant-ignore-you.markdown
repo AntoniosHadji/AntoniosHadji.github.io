@@ -9,6 +9,8 @@ comments: true
 # So Good They Can't Ignore You
 by Cal Newport
 
+The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts.
+
 ##Chapter One:
 The “Passion” of Steve Jobs In which I question the validity of the passion hypothesis, which says that the key to occupational happiness is to match your job to a pre-existing passion.
 
@@ -19,14 +21,21 @@ Passion Is Rare In which I argue that the more you seek examples of the passion 
 Passion Is Dangerous In which I argue that subscribing to the passion hypothesis can make you less happy.
 
 ##Chapter Four:
-The Clarity of the Craftsman In which I introduce two different approaches to thinking about work: the craftsman mindset, a focus on what value you’re producing in your job, and the passion mindset, a focus on what value your job offers you. Most people adopt the passion mindset, but in this chapter I argue that the craftsman mindset is the foundation for creating work you love.
+The Clarity of the Craftsman In which I introduce two different approaches to thinking about work:  
+* the craftsman mindset, a focus on what value you’re producing in your job, and 
+* the passion mindset, a focus on what value your job offers you.  
+
+Most people adopt the passion mindset, but in this chapter I argue that the craftsman mindset is the foundation for creating work you love.
 
 I track the hours spent each month dedicated to thinking hard about research problems (in the month in which I first wrote this chapter, for example, I dedicated forty-two hours to these core tasks). This hour-tracking strategy helped turn my attention back above all else to the quality of what I produce.
 
 ##Chapter Five:
 The Power of Career Capital In which I justify the importance of the craftsman mindset by arguing that the traits that make a great job great are rare and valuable, and therefore, if you want a great job, you need to build up rare and valuable skills—which I call career capital—to offer in return.
 
-TRAITS THAT DEFINE GREAT WORK Creativity: Ira Glass, for example, is pushing the boundaries of radio, and winning armfuls of awards in the process. Impact: From the Apple II to the iPhone, Steve Jobs has changed the way we live our lives in the digital age. Control: No one tells Al Merrick when to wake up or what to wear. He’s not expected in an office from nine to five. Instead, his Channel Island Surfboards factory is located a block from the Santa Barbara beach, where Merrick still regularly spends time surfing. ( Jake Burton Carpenter, founder of Burton Snowboards, for example, recalls how negotiations for the merger between the two companies happened while he and Merrick waited for waves in a surf lineup.)
+TRAITS THAT DEFINE GREAT WORK
+* Creativity: Ira Glass, for example, is pushing the boundaries of radio, and winning armfuls of awards in the process. 
+* Impact: From the Apple II to the iPhone, Steve Jobs has changed the way we live our lives in the digital age. 
+* Control: No one tells Al Merrick when to wake up or what to wear. He’s not expected in an office from nine to five. Instead, his Channel Island Surfboards factory is located a block from the Santa Barbara beach, where Merrick still regularly spends time surfing. ( Jake Burton Carpenter, founder of Burton Snowboards, for example, recalls how negotiations for the merger between the two companies happened while he and Merrick waited for waves in a surf lineup.)
 
 THE CAREER CAPITAL THEORY OF GREAT WORK The traits that define great work are rare and valuable. Supply and demand says that if you want these traits you need rare and valuable skills to offer in return. Think of these rare and valuable skills you can offer as your career capital. The craftsman mindset, with its relentless focus on becoming “so good they can’t ignore you,” is a strategy well suited for acquiring career capital. This is why it trumps the passion mindset if your goal is to create work you love.  
 
@@ -54,43 +63,43 @@ In his current position as a venture capitalist, Mike maintains his dedication t
 
 * Step 1: Decide What Capital Market You’re In
 
->When you are acquiring career capital in a field, you can imagine that you are acquiring this capital in a specific type of career capital market. There are two types of these markets: winner-take-all and auction.  
+    >When you are acquiring career capital in a field, you can imagine that you are acquiring this capital in a specific type of career capital market. There are two types of these markets: winner-take-all and auction.  
 
 * Step 2: Identify Your Capital Type
 
->open gates—opportunities to build capital that are already open to you.
+    >open gates—opportunities to build capital that are already open to you.
 
 * Step 3: Define “Good” 
 
 * Step 4: Stretch and Destroy
 
->Doing things we know how to do well is enjoyable, and that’s exactly the opposite of what deliberate practice demands…. Deliberate practice is above all an effort of focus and concentration. That is what makes it “deliberate,” as distinct from the mindless playing of scales or hitting of tennis balls that most people engage in.  
+    >Doing things we know how to do well is enjoyable, and that’s exactly the opposite of what deliberate practice demands…. Deliberate practice is above all an effort of focus and concentration. That is what makes it “deliberate,” as distinct from the mindless playing of scales or hitting of tennis balls that most people engage in.  
 
->Deliberate practice is often the opposite of enjoyable.
+    >Deliberate practice is often the opposite of enjoyable.
 
 * Step 5: Be Patient
 
 ##Chapter Eight:
-The Dream-Job Elixir In which I argue that control over what you do, and how you do it, is one of the most powerful traits you can acquire when creating work you love. 
+The Dream-Job Elixir In which I argue that control over what you do, and how you do it, is one of the most powerful traits you can acquire when creating work you love.  
 
 ##Chapter Nine:
 The First Control Trap In which I introduce the first control trap, which warns that it’s dangerous to pursue more control in your working life before you have career capital to offer in exchange.  
 
-The First Control Trap Control that’s acquired without career capital is not sustainable.
+The First Control Trap Control that’s acquired without career capital is not sustainable.  
 
 ##Chapter Ten:
-The Second Control Trap In which I introduce the second control trap, which warns that once you have enough career capital to acquire more control in your working life, you have become valuable enough to your employer that they will fight your efforts to gain more autonomy. 
+The Second Control Trap In which I introduce the second control trap, which warns that once you have enough career capital to acquire more control in your working life, you have become valuable enough to your employer that they will fight your efforts to gain more autonomy.  
 
-The Second Control Trap The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you’ve become valuable enough to your current employer that they will try to prevent you from making the change. 
+The Second Control Trap The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you’ve become valuable enough to your current employer that they will try to prevent you from making the change.  
 
 ##Chapter Eleven:
-Avoiding the Control Traps In which I explain the law of financial viability, which says you should only pursue a bid for more control if you have evidence that it’s something that people are willing to pay you for.
+Avoiding the Control Traps In which I explain the law of financial viability, which says you should only pursue a bid for more control if you have evidence that it’s something that people are willing to pay you for.  
 
-“I have this principle about money that overrides my other life rules,” he said. “Do what people are willing to pay for.”  
+>“I have this principle about money that overrides my other life rules,” he said. “Do what people are willing to pay for.”  
 
-“Money is a neutral indicator of value. By aiming to make money, you’re aiming to be valuable.”
+>“Money is a neutral indicator of value. By aiming to make money, you’re aiming to be valuable.”
 
-The Law of Financial Viability When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on. 
+The Law of Financial Viability When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on.  
 
 ##Chapter Twelve:
 The Meaningful Life of Pardis Sabeti In which I argue that a unifying mission to your working life can be a source of great satisfaction.  
