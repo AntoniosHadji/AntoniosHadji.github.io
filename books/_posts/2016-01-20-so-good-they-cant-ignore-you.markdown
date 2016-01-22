@@ -5,11 +5,9 @@ date:   2016-01-20 09:00:00 -05:00
 categories: books
 comments: true
 ---
+The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts in bold beginning with **Note:**.
 
-# So Good They Can't Ignore You
-by Cal Newport
-
-The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts.
+<a rel="nofollow" href="http://www.amazon.com/gp/product/1455509124/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=hadji-20&linkId=OEK7CNXMXGEGOHQ2"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1455509124&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=hadji-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=hadji-20&l=as2&o=1&a=1455509124" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ##Chapter One:
 The “Passion” of Steve Jobs In which I question the validity of the passion hypothesis, which says that the key to occupational happiness is to match your job to a pre-existing passion.
@@ -22,6 +20,7 @@ Passion Is Dangerous In which I argue that subscribing to the passion hypothesis
 
 ##Chapter Four:
 The Clarity of the Craftsman In which I introduce two different approaches to thinking about work:  
+
 * the craftsman mindset, a focus on what value you’re producing in your job, and 
 * the passion mindset, a focus on what value your job offers you.  
 
@@ -33,19 +32,21 @@ I track the hours spent each month dedicated to thinking hard about research pro
 The Power of Career Capital In which I justify the importance of the craftsman mindset by arguing that the traits that make a great job great are rare and valuable, and therefore, if you want a great job, you need to build up rare and valuable skills—which I call career capital—to offer in return.
 
 TRAITS THAT DEFINE GREAT WORK
-* Creativity: Ira Glass, for example, is pushing the boundaries of radio, and winning armfuls of awards in the process. 
-* Impact: From the Apple II to the iPhone, Steve Jobs has changed the way we live our lives in the digital age. 
-* Control: No one tells Al Merrick when to wake up or what to wear. He’s not expected in an office from nine to five. Instead, his Channel Island Surfboards factory is located a block from the Santa Barbara beach, where Merrick still regularly spends time surfing. ( Jake Burton Carpenter, founder of Burton Snowboards, for example, recalls how negotiations for the merger between the two companies happened while he and Merrick waited for waves in a surf lineup.)
+
+* **Creativity**: Ira Glass, for example, is pushing the boundaries of radio, and winning armfuls of awards in the process. 
+* **Impact**: From the Apple II to the iPhone, Steve Jobs has changed the way we live our lives in the digital age. 
+* **Control**: No one tells Al Merrick when to wake up or what to wear. He’s not expected in an office from nine to five. Instead, his Channel Island Surfboards factory is located a block from the Santa Barbara beach, where Merrick still regularly spends time surfing. ( Jake Burton Carpenter, founder of Burton Snowboards, for example, recalls how negotiations for the merger between the two companies happened while he and Merrick waited for waves in a surf lineup.)
 
 THE CAREER CAPITAL THEORY OF GREAT WORK The traits that define great work are rare and valuable. Supply and demand says that if you want these traits you need rare and valuable skills to offer in return. Think of these rare and valuable skills you can offer as your career capital. The craftsman mindset, with its relentless focus on becoming “so good they can’t ignore you,” is a strategy well suited for acquiring career capital. This is why it trumps the passion mindset if your goal is to create work you love.  
 
 Duffy, it turns out, is from the craftsman school of thought. Instead of fleeing the constraints of his current job, he began acquiring the career capital he’d need to buy himself out of them.  
 
-**Note: great questions to ask yourself about your current or future career**
-THREE DISQUALIFIERS FOR APPLYING THE CRAFTSMAN MINDSET 
-    1. The job presents few opportunities to distinguish yourself by developing relevant skills that are rare and valuable.  
-    2. The job focuses on something you think is useless or perhaps even actively bad for the world.  
-    3. The job forces you to work with people you really dislike  
+**Note: great questions to ask yourself about your current or future career**  
+THREE DISQUALIFIERS FOR APPLYING THE CRAFTSMAN MINDSET  
+
+1. The job presents few opportunities to distinguish yourself by developing relevant skills that are rare and valuable.  
+2. The job focuses on something you think is useless or perhaps even actively bad for the world.  
+3. The job forces you to work with people you really dislike  
 
 ##Chapter Six:
 The Career Capitalists In which I demonstrate the power of career capital in action with two profiles of people who leveraged the craftsman mindset to construct careers they love.
