@@ -7,7 +7,7 @@ comments: true
 ---
 The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts in bold beginning with **Note:**.
 
-<a rel="nofollow" href="http://www.amazon.com/gp/product/1455509124/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=hadji-20&linkId=OEK7CNXMXGEGOHQ2"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1455509124&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=hadji-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=hadji-20&l=as2&o=1&a=1455509124" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<iframe type="text/html" width="212" height="362" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0076DDBJ6&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_6BH1wb0R7ZV5Z&tag=hadji-20" ></iframe>
 
 ##Chapter One:
 The “Passion” of Steve Jobs In which I question the validity of the passion hypothesis, which says that the key to occupational happiness is to match your job to a pre-existing passion.
