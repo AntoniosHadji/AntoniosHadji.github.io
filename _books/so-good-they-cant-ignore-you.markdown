@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "So Good They Can't Ignore You"
 date:   2016-01-20 09:00:00 -05:00
-categories: books
 comments: true
 ---
 The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts in bold beginning with **Note:**.
