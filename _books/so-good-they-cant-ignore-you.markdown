@@ -9,7 +9,7 @@ The clips below are taken directly from my highlights as I read this book.  Refe
 
 <iframe type="text/html" width="212" height="362" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0076DDBJ6&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_6BH1wb0R7ZV5Z&tag=hadji-20" ></iframe>
 
-##Chapter One:
+## Chapter One:  
 The “Passion” of Steve Jobs In which I question the validity of the passion hypothesis, which says that the key to occupational happiness is to match your job to a pre-existing passion.
 
 ##Chapter Two:
