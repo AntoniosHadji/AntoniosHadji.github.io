@@ -26,6 +26,12 @@ disqusid: antonioshadji
 # Build settings
 markdown: kramdown
 
+# Collection settings
 collections:
   books:
     output: true
+
+# Gem setup
+gems:
+  - jekyll-sitemap
+
