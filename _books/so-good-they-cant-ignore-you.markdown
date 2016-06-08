@@ -12,13 +12,13 @@ The clips below are taken directly from my highlights as I read this book.  Refe
 ## Chapter One:  
 The “Passion” of Steve Jobs In which I question the validity of the passion hypothesis, which says that the key to occupational happiness is to match your job to a pre-existing passion.
 
-##Chapter Two:
+## Chapter Two:  
 Passion Is Rare In which I argue that the more you seek examples of the passion hypothesis, the more you recognize its rarity.
 
-##Chapter Three:
+## Chapter Three:  
 Passion Is Dangerous In which I argue that subscribing to the passion hypothesis can make you less happy.
 
-##Chapter Four:
+## Chapter Four:  
 The Clarity of the Craftsman In which I introduce two different approaches to thinking about work:  
 
 * the craftsman mindset, a focus on what value you’re producing in your job, and 
@@ -28,7 +28,7 @@ Most people adopt the passion mindset, but in this chapter I argue that the craf
 
 I track the hours spent each month dedicated to thinking hard about research problems (in the month in which I first wrote this chapter, for example, I dedicated forty-two hours to these core tasks). This hour-tracking strategy helped turn my attention back above all else to the quality of what I produce.
 
-##Chapter Five:
+## Chapter Five:  
 The Power of Career Capital In which I justify the importance of the craftsman mindset by arguing that the traits that make a great job great are rare and valuable, and therefore, if you want a great job, you need to build up rare and valuable skills—which I call career capital—to offer in return.
 
 TRAITS THAT DEFINE GREAT WORK
@@ -48,10 +48,10 @@ THREE DISQUALIFIERS FOR APPLYING THE CRAFTSMAN MINDSET
 2. The job focuses on something you think is useless or perhaps even actively bad for the world.  
 3. The job forces you to work with people you really dislike  
 
-##Chapter Six:
+## Chapter Six:  
 The Career Capitalists In which I demonstrate the power of career capital in action with two profiles of people who leveraged the craftsman mindset to construct careers they love.
 
-##Chapter Seven:
+## Chapter Seven:  
 Becoming a Craftsman In which I introduce deliberate practice, the key strategy for acquiring career capital, and show how to integrate it into your own working life. 
 
 the difference in strategy that separates average guitar players like me from stars like Tice and Casstevens is not confined to music. This focus on stretching your ability and receiving immediate feedback provides the core of a more universal principle—one
@@ -80,20 +80,20 @@ In his current position as a venture capitalist, Mike maintains his dedication t
 
 * Step 5: Be Patient
 
-##Chapter Eight:
+## Chapter Eight:  
 The Dream-Job Elixir In which I argue that control over what you do, and how you do it, is one of the most powerful traits you can acquire when creating work you love.  
 
-##Chapter Nine:
+## Chapter Nine:  
 The First Control Trap In which I introduce the first control trap, which warns that it’s dangerous to pursue more control in your working life before you have career capital to offer in exchange.  
 
 The First Control Trap Control that’s acquired without career capital is not sustainable.  
 
-##Chapter Ten:
+## Chapter Ten:  
 The Second Control Trap In which I introduce the second control trap, which warns that once you have enough career capital to acquire more control in your working life, you have become valuable enough to your employer that they will fight your efforts to gain more autonomy.  
 
 The Second Control Trap The point at which you have acquired enough career capital to get meaningful control over your working life is exactly the point when you’ve become valuable enough to your current employer that they will try to prevent you from making the change.  
 
-##Chapter Eleven:
+## Chapter Eleven:  
 Avoiding the Control Traps In which I explain the law of financial viability, which says you should only pursue a bid for more control if you have evidence that it’s something that people are willing to pay you for.  
 
 >“I have this principle about money that overrides my other life rules,” he said. “Do what people are willing to pay for.”  
@@ -102,21 +102,21 @@ Avoiding the Control Traps In which I explain the law of financial viability, wh
 
 The Law of Financial Viability When deciding whether to follow an appealing pursuit that will introduce more control into your work life, seek evidence of whether people are willing to pay for it. If you find this evidence, continue. If not, move on.  
 
-##Chapter Twelve:
+## Chapter Twelve:  
 The Meaningful Life of Pardis Sabeti In which I argue that a unifying mission to your working life can be a source of great satisfaction.  
 
 The Power of Mission To have a mission is to have a unifying focus for your career. It’s more general than a specific job and can span multiple positions. It provides an answer to the question, What should I do with my life?  
 
-##Chapter Thirteen:
+## Chapter Thirteen:  
 Missions Require Capital In which I argue that a mission chosen before you have relevant career capital is not likely to be sustainable.  
 
-##Chapter Fourteen:
+## Chapter Fourteen:  
 Missions Require Little Bets In which I argue that great missions are transformed into great successes as the result of using small and achievable projects—little bets—to explore the concrete possibilities surrounding a compelling idea. 
 
-##Chapter Fifteen:
+## Chapter Fifteen:  
 Missions Require Marketing In which I argue that great missions are transformed into great successes as the result of finding projects that satisfy the law of remarkability, which requires that an idea inspires people to remark about it, and is launched in a venue where such remarking is made easy.
 
-##Conclusion:
+## Conclusion:  
 Strain, I now accepted, was good. Instead of seeing this discomfort as a sensation to avoid, I began to understand it the same way that a body builder understands muscle burn: a sign that you’re doing something right. 
 
 a little bet, in the setting of mission exploration, has the following characteristics: It’s a project small enough to be completed in less than a month. It forces you to create new value (e.g., master a new skill and produce new results that didn’t exist before). It produces a concrete result that you can use to gather concrete feedback.  
