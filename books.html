@@ -1,18 +1,19 @@
 ---
 layout: default
+title: Books
 ---
 
 <div class="home">
 
   <h1 class="page-heading">Book Notes</h1>
 
-  <ul class="book-list">
+  <ul class="post-list">
     {% for book in site.books %}
       <li>
-        <span class="book-meta">{{ book.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ book.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="book-link" href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a>
+          <a class="post-link" href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a>
         </h2>
       </li>
     {% endfor %}
