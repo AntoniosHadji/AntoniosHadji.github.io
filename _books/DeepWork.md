@@ -236,6 +236,8 @@ Another key commitment for succeeding with this strategy is to support your comm
 
 In more detail, this ritual should ensure that every incomplete task, goal, or project has been reviewed and that for each you have confirmed that either (1) you have a plan you trust for its completion, or (2) it’s captured in a place where it will be revisited when the time is right.   
 
+## Rule \#2: Embrace Boredom
+
 The ability to concentrate intensely is a skill that must be trained.   
 
 There is, however, an important corollary to this idea: Efforts to deepen your focus will struggle if you don’t simultaneously wean your mind from a dependence on distraction. Much in the same way that athletes must take care of their bodies outside of their training sessions, you’ll struggle to achieve the deepest levels of concentration if you spend the rest of your time fleeing the slightest hint of boredom.   
