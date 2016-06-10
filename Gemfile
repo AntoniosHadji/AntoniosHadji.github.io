@@ -1,5 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'github-linguist'
-gem 'github-markdown'
-gem 'font-awesome-sass'
+gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-sitemap'

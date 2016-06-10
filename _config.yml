@@ -14,13 +14,24 @@ description: > # this means to ignore newlines until "baseurl:"
   Business, technology, mind & body power
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://antonioshadji.github.io" # the base hostname & protocol for your site
-permalink: :title/
+permalink: /:title/
+
 # Social settings
 twitter_username: AntoniosHadji
 github_username:  AntoniosHadji
 linkedin_username: AntoniosHadji
 google-plus_username: AntoniosHadjigeorgalis
 disqusid: antonioshadji
+
 # Build settings
 markdown: kramdown
+
+# Collection settings
+collections:
+  books:
+    output: true
+
+# Gem setup
+gems:
+  - jekyll-sitemap
 
