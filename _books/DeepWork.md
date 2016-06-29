@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Deep Work: Rules for Focused Success in a Distracted World"
 date:   2016-01-31 09:00:00 -05:00
 comments: true
