@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "So Good They Can't Ignore You"
 date:   2016-01-20 09:00:00 -05:00
 comments: true
