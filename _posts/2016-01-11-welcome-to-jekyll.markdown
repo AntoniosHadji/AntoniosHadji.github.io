@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-11 20:00:24 -0500
+modified: 2016-08-21 15:00:00 -0500
 categories: technology
 tags: jekyll
 comments: true
@@ -38,6 +39,7 @@ To make the urls match the titles without any categories or dates, what is commo
 permalink: :title/
 {% endhighlight %}
 
+## Comments
 Jekyll does not come with commenting capabilities built in.  Many people use Disqus and I decided to do the same.  I found the documentation lacking in clarity as to how to set it up best.  Disqus site has code you can copy and paste.  There are two variables that you will need to set in this code.
 
 {% highlight liquid %}
@@ -50,10 +52,88 @@ this.page.identifier = "{{ site.disqusid }}{{ page.url }}";
 I set my disqus site id up in my `_config.yml` file 
 
 {% highlight yaml %}
-disqusid: antonioshadji
+disqusid: replacethistextwithyourdisqusid
 {% endhighlight %}
 
-Stay tuned for more content in 2016 and feel free to reach out to me if you think I can help you solve a problem.
+## Collections
+The next addition to this site was my collection of book notes.  Since Jekyll has [collections][jd-c] that seemed like a great mechanism for creating a new series of related information like book notes.  I have to thank Ben Balter for his excellent post [Explain like I'm five: Jekyll Collections][link1]. His description was instrumental in my implementation of collections.  
 
+The main benefit in using collections like this is that I get to keep all related writing in a subdirectory separate from regular posts or other types of writing that I might want to share.  Another benefit for readers of my site is that I can set it up so that they can easily look through related information that is available on the site.  
+
+### What does it take to create and display collections in Jekyll?
+
+The first step is to add the collection to your `_config.yaml` file. Below is the configuration to create a `books` collection.
+
+{% highlight yaml %}
+collections:
+  books:
+    output: true
+{% endhighlight %}
+
+Now throughout Jekyll I can refer to `books` just as I would `posts` and get the same result.  
+
+The next thing to do is to create a listing page that will show all the book notes.  For this blog I simply copied the default `index.html` to `books.html` and made a few minor modifications:  
+
+Here's what my edited `books.html` looks like:
+{% highlight liquid %}
+{% raw %}
+---
+layout: default
+title: Books
+---
+
+<div class="home">
+  <h1 class="page-heading">Book Notes</h1>
+  <ul class="post-list">
+    {% for book in site.books reversed %}
+      <li>
+        <span class="post-meta">{{ book.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
+{% endraw %}
+{% endhighlight %}
+
+1. Add a title to the yaml front matter `title: Books`
+2. Change the <h1> from 'Posts' to 'Book Notes'
+3. Change references to `post` to `book` except for css class names.  I did not choose to change the css to look different than the posts.
+4. Change the for loop to:
+{% highlight liquid %}
+{% raw %}
+{% for book in site.books reversed %}
+{% endraw %}
+{% endhighlight %}
+
+Using `reversed` shows the most recent book notes at the top of the page.
+
+An added benefit to adding the `books.html` file next to the default `index.html` file in the root directory is that Jekyll automatically creates a menu item for each file there.  So this creates a 'Books' menu item for free!
+
+## About page
+
+To create an about page on my site and have it accessible via the menu, all I had to do was add an `about.md` markdown file in the root directory and Jekyll did everything else.
+
+## Custom Url
+
+Currently my Jekyll site is reachable from `hadji.co` or `www.hadji.co` via URL forwarding set up in my DNS. On [Github Pages][gp] I can have the site show up with my custom url by including a `CNAME` file in my github repository.  I've been debating the merits of that since I lose the https functionality that is available for free with my github account  
+
+In other words, I can have my url show up as:  
+`https://antonioshadji.github.io/`  
+or  
+`http://www.hadji.co/`  
+
+I'm still thinking on this one.  Currently, Github does not offer `https` on custom domains.  I'm assuming that it is only a matter of time before they do. There are people writing about how to use cloudflare to make the site appear on `https` urls.  My understanding is that this isn't the same as having the domain secured with ssl.  Since it's not the same, I prefer to not make it appear so to visitors.  For now I am using my `github.io` address.  I plan to  update this post if anything changes.
+
+
+If you have read all the way to here, I hope that you found this information useful.  I have many plans for this site and all my Jekyll modifications will be documented in this post.  For your enjoyment and so that I can remember what I have done to modify my site from the default install.
+
+[gp]: https://pages.github.com/
+[link1]: http://ben.balter.com/2015/02/20/jekyll-collections/
+[jd-c]: https://jekyllrb.com/docs/collections/
 [md]: https://help.github.com/articles/github-flavored-markdown/
 [v]: http://www.vim.org/

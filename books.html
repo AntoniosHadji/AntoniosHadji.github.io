@@ -8,7 +8,7 @@ title: Books
   <h1 class="page-heading">Book Notes</h1>
 
   <ul class="post-list">
-    {% for book in site.books %}
+    {% for book in site.books reversed %}
       <li>
         <span class="post-meta">{{ book.date | date: "%b %-d, %Y" }}</span>
 
