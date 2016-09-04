@@ -6,12 +6,12 @@ permalink: /about/
 
 > **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
 
-> **Philosopher:** from the greek philosophos, meaning lover of wisdom.
+> **Philosopher:** from the Greek word φιλοσοφία (philosophia), meaning the love of, and the search for wisdom.
 
 > **Scientist:** a person who is studying or has expert knowledge of one or more of the natural or physical sciences.  I study business, technology, the human mind and body.
 
 
-## My Top 5 Strengths:  
+## My Top 5 [Strengths][sf]:  
 
 - I am a **problem solver**: I see what is broken, or sub-optimal, and I figure out how to improve it.  
 - I am a **lifelong learner**: I continuously strive to learn more, and improve myself.  
@@ -26,4 +26,5 @@ My unique ability is deconstructing what is known, envisioning what could be, an
 
 
 
+[sf]: http://amzn.to/2bXbU8j
 [ua]: http://amzn.to/2bsLsDM
