@@ -8,7 +8,7 @@ permalink: /about/
 
 > **Philosopher:** from the Greek word φιλοσοφία (philosophia), meaning the love of, and the search for wisdom.
 
-> **Scientist:** a person who is studying or has expert knowledge of one or more of the natural or physical sciences.  I study business, technology, the human mind and body.
+> **Scientist:** a person engaging in a systematic activity to acquire knowledge that describes and predicts the natural world.
 
 
 ## My Top 5 [Strengths][sf]:  
