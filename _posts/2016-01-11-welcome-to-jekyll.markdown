@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-11 20:00:24 -0500
-modified: 2016-08-21 15:00:00 -0500
+modified: 2016-09-16 15:04:22 -0400
 categories: technology
 tags: jekyll
 comments: true
@@ -127,11 +127,23 @@ In other words, I can have my url show up as:
 or  
 `http://www.hadji.co/`  
 
-I'm still thinking on this one.  Currently, Github does not offer `https` on custom domains.  I'm assuming that it is only a matter of time before they do. There are people writing about how to use cloudflare to make the site appear on `https` urls.  My understanding is that this isn't the same as having the domain secured with ssl.  Since it's not the same, I prefer to not make it appear so to visitors.  For now I am using my `github.io` address.  I plan to  update this post if anything changes.
+Currently, Github does not offer `https` on custom domains.  I'm assuming that it is only a matter of time before they do. There are people writing about how to use cloudflare to make the site appear on `https` urls.  My understanding is that this isn't the same as having the domain secured with ssl.  Since it's not the same, I prefer to not make it appear so to visitors.
+
+I'm choosing to continue using my `github.io` address.  I recently found some information on [Moz.com][moz] that helped me make the decision.  
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="3oFVArO"><a href="//imgur.com/3oFVArO"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+What caught my attention is the distinction between what happens when I use a 301 redirect vs. what happens with `<link rel=canonical ...` meta data.  
+
+If I add a canonical url to my content in Jekyll on Github Pages the search engines will get the same redirection information that they would get with a 301 redirect.  The only difference is that users will always see Github Pages site even if the content is living elsewhere on the net someday. I'm only concerned about controlling my SEO score and this gives me that ability.  If you think I'm missing something here please let me know in the comments.  
+
+This was also confirmed by [Yoast][y].
 
 
 If you have read all the way to here, I hope that you found this information useful.  I have many plans for this site and all my Jekyll modifications will be documented in this post.  For your enjoyment and so that I can remember what I have done to modify my site from the default install.
 
+[y]: https://yoast.com/rel-canonical/#301-redirect-vs-canonical
+[moz]: https://moz.com/blog/subdomains-vs-subfolders-rel-canonical-vs-301-how-to-structure-links-optimally-for-seo-whiteboard-friday
 [gp]: https://pages.github.com/
 [link1]: http://ben.balter.com/2015/02/20/jekyll-collections/
 [jd-c]: https://jekyllrb.com/docs/collections/
