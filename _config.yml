@@ -34,4 +34,4 @@ collections:
 # Gem setup
 gems:
   - jekyll-sitemap
-
+  - jekyll-feed
