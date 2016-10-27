@@ -1,6 +1,12 @@
-**People who may make good collaborators:**
+**Collaborators:**
 https://www.quora.com/profile/Ian-McCullough
 https://www.quora.com/profile/Ian-McCullough/Ians-Posts/My-Letter-to-My-Lawmakers-About-Election-Reform
+http://www.campaignforliberty.org/
+http://www.fairvote.org/
+https://twitter.com/fairvote/following
+http://rangevoting.org/
+
+
 
 **Research:**
 https://en.wikipedia.org/wiki/Duverger%27s_law
