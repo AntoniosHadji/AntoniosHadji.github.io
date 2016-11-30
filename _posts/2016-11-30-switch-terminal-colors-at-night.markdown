@@ -30,7 +30,9 @@ Since this is a system file it will likely be updated in the future.  To make my
 
 ~~~bash
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator $HOME/bin/gnome-terminal.wrapper 10
+sudo update-alternatives --config x-terminal-emulator
 ~~~
+
 
 Now when I launch a terminal with Ctrl-Alt-T shortcut my custom wrapper will start my default Solarized-Dark profile before 5pm and Solarized-Light after 5pm.
 
