@@ -18,7 +18,7 @@ I created a copy of this file and placed it in my ``$HOME/bin``.  Then I added t
 
 ~~~perl
 ($sec, $min, $hour) = localtime();
-if ($hour ge 17)
+if ($hour >= 17)
 {
   push(@args, '--profile=Solarized-Light');
 }
