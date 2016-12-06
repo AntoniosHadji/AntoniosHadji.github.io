@@ -12,17 +12,17 @@
     // set this variable to test on my dev machine
     // var disqus_developer = 1;
 
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
+    (function() {  // DON"T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement("script");
 
-        s.src = '//{{ site.disqusid }}.disqus.com/embed.js';
+        s.src = "//{{ site.disqusid }}.disqus.com/embed.js";
 
-        s.setAttribute('data-timestamp', +new Date());
+        s.setAttribute("data-timestamp", +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% else %}
-<script>console.log("if condition is false");</script>
+  <script>console.log("comments not enabled for:{{site.url}}{{page.url}}");</script>
 {% endif %}
 <!-- vim: set ft=liquid: -->
