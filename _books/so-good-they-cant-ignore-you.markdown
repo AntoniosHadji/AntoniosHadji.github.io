@@ -9,31 +9,31 @@ The clips below are taken directly from my highlights as I read this book.  Refe
 <iframe type="text/html" width="212" height="362" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0076DDBJ6&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_6BH1wb0R7ZV5Z&tag=hadji-20" ></iframe>
 
 ## Contents:  
-**Rule #1: Don't Follow Your Passion**
-Chapter One: The "Passion" of Steve Jobs
-Chapter Two: Passion is Rare
-Chapter Three: Passion is Dangerous
+**Rule #1: Don't Follow Your Passion**  
+Chapter One: The "Passion" of Steve Jobs  
+Chapter Two: Passion is Rare  
+Chapter Three: Passion is Dangerous  
 
-**Rule #2: Be So Good They Can't Ignore You _(Or, the Importance of Skill)_**
-Chapter Four: The Clarity of the Craftsman
-Chapter Five: The Power of Career Capital
-Chapter Six: The Career Capitalists
-Chapter Seven: Becoming a Craftsman
-Summary of Rule #2
+**Rule #2: Be So Good They Can't Ignore You _(Or, the Importance of Skill)_**  
+Chapter Four: The Clarity of the Craftsman  
+Chapter Five: The Power of Career Capital  
+Chapter Six: The Career Capitalists  
+Chapter Seven: Becoming a Craftsman  
+Summary of Rule #2  
 
-**Rule #3: Turn Down a Promotion _(Or, the Importance of Control)_**
-Chapter Eight: The Dream-Job Elixir
-Chapter Nine: The First Control Trap
-Chapter Ten: The Second Control Trap
-Chapter Eleven: Avoiding the Control Traps
-Summary of Rule #3
+**Rule #3: Turn Down a Promotion _(Or, the Importance of Control)_**  
+Chapter Eight: The Dream-Job Elixir  
+Chapter Nine: The First Control Trap  
+Chapter Ten: The Second Control Trap  
+Chapter Eleven: Avoiding the Control Traps  
+Summary of Rule #3  
 
-**Rule #4: Think Small, Act Big _(Or, the Importance of Mission)_**
-Chapter Twelve: The Meaningful Life of Pardis Sabeti
-Chapter Thirteen: Missions Require Capital
-Chapter Fourteen: Missions Require Little Bets
-Chapter Fifteen: Missions Require Marketing
-Summary of Rule #4
+**Rule #4: Think Small, Act Big _(Or, the Importance of Mission)_**  
+Chapter Twelve: The Meaningful Life of Pardis Sabeti  
+Chapter Thirteen: Missions Require Capital  
+Chapter Fourteen: Missions Require Little Bets  
+Chapter Fifteen: Missions Require Marketing  
+Summary of Rule #4  
 
 
 ## Chapter One:  
