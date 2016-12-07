@@ -40,14 +40,14 @@ colorscheme solarized
 
 ## Another way to setup the color theme for newly launched terminals.
 
-<div>
 **NOTE:** This is no longer used on my machine because the above script changes my default profile.  To remove the alternative I ran the following commands:
 
 ```bash
 sudo update-alternatives --remove x-terminal-emulator $HOME/bin/gnome-terminal-wrapper
 ```
-** -- end note -- **
-</div>
+
+___
+
 
 I found that the gnome terminal is actually started by a perl script, ``/usr/bin/gnome-terminal.wrapper``.
 

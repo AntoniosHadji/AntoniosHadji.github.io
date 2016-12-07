@@ -31,7 +31,3 @@ collections:
   books:
     output: true
 
-# Gem setup
-gems:
-  - jekyll-sitemap
-  - jekyll-feed

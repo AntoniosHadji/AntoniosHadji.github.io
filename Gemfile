@@ -1,6 +1,2 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'github-linguist'
-gem 'github-markdown'
-gem 'jekyll-sitemap'
-gem 'jekyll-feed'
+gem 'github-pages', 106, group: :jekyll_plugins
