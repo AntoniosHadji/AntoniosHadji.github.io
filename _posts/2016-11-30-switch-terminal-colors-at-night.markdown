@@ -12,7 +12,44 @@ As of Ubuntu 16.04 (maybe earlier) the Gnome Terminal has built in support for [
 
 I typically use Solarized Dark during the day.  However, when Redshift starts working in the evening, the screen gets very difficult to see.  I had been using a [bash script][4] in combination with ``.bashrc`` to change the colors of the default profile.  This stopped working when I updated to Ubuntu 16.04.  So it was back to roughing it, and making the change manually.
 
-Today I discovered a new way to make this happen.  I found that the gnome terminal is actually started by a perl script, ``/usr/bin/gnome-terminal.wrapper``.
+Another script to make this change is available here: https://github.com/Anthony25/gnome-terminal-colors-solarized  
+Using this script, I can change from dark to light with `./set_light.sh Default --skip-dircolors`  `Default` is the name of my default gnome-terminal profile. `--skip-dircolors` is because I am using my own [`.dircolors`][6] file that I created from the default Ubuntu colors.
+
+I added two cron lines to run these scripts when I want the color switch to occur.
+
+```bash
+0 17 * * * $HOME/dotfiles/gnome-terminal-colors-solarized/set_light.sh Default --skip-dircolors
+0 6 * * * $HOME/dotfiles/gnome-terminal-colors-solarized/set_dark.sh Default --skip-dircolors
+```
+
+This will have all open terminals switch from dark to light at 5 pm.  My computer is set to wake at 5:55am so at 6am the color scheme changes back to dark.  This has the added benefit of being a reminder to wrap up my work day when the screen turns to the light color scheme.
+
+For this to work correctly in Vim I added these lines to my `.vimrc`:
+
+```vim
+let hour = strftime("%H")
+if hour >= 17
+  set background=light
+else
+  set background=dark
+endif
+
+colorscheme solarized
+```
+
+
+## Another way to setup the color theme for newly launched terminals.
+
+<div>
+**NOTE:** This is no longer used on my machine because the above script changes my default profile.  To remove the alternative I ran the following commands:
+
+```bash
+sudo update-alternatives --remove x-terminal-emulator $HOME/bin/gnome-terminal-wrapper
+```
+** -- end note -- **
+</div>
+
+I found that the gnome terminal is actually started by a perl script, ``/usr/bin/gnome-terminal.wrapper``.
 
 I created a copy of this file and placed it in my ``$HOME/bin``.  Then I added the following code to the top of the file:
 
@@ -42,3 +79,5 @@ This has the added benefit of automatically reminding me that the work day is ov
 [2]: http://jonls.dk/redshift/
 [3]: https://justgetflux.com/
 [4]: https://gist.github.com/codeforkjeff/1397104#file-solarize-sh
+[5]: https://github.com/seebi/dircolors-solarized
+[6]: https://github.com/AntoniosHadji/dotfiles/blob/master/dircolors
