@@ -15,14 +15,15 @@ I typically use Solarized Dark during the day.  However, when Redshift starts wo
 Another script to make this change is available here: https://github.com/Anthony25/gnome-terminal-colors-solarized  
 Using this script, I can change from dark to light with `./set_light.sh Default --skip-dircolors`  `Default` is the name of my default gnome-terminal profile. `--skip-dircolors` is because I am using my own [`.dircolors`][6] file that I created from the default Ubuntu colors.
 
-I added two cron lines to run these scripts when I want the color switch to occur.
+I added these cron lines to run these scripts when I want the color switch to occur.  The script uses `dconf` which requires the `DISPLAY` variable to be set.  This can be set in the crontab before the script is called.
 
 ```bash
+DISPLAY=:0
 0 17 * * * $HOME/dotfiles/gnome-terminal-colors-solarized/set_light.sh Default --skip-dircolors
 0 6 * * * $HOME/dotfiles/gnome-terminal-colors-solarized/set_dark.sh Default --skip-dircolors
 ```
 
-This will have all open terminals switch from dark to light at 5 pm.  My computer is set to wake at 5:55am so at 6am the color scheme changes back to dark.  This has the added benefit of being a reminder to wrap up my work day when the screen turns to the light color scheme.
+This will have all open terminals switch from dark to light at 5 pm.  This has the added benefit of being a reminder to wrap up my work day when the screen turns to the light color scheme.   My computer is set to wake at 6am so at 6am the color scheme changes back to dark.
 
 For this to work correctly in Vim I added these lines to my `.vimrc`:
 
