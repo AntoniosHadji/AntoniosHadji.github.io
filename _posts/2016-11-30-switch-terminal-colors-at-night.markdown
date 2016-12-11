@@ -17,6 +17,8 @@ Using this script, I can change from dark to light with `./set_light.sh Default 
 
 I added these cron lines to run these scripts when I want the color switch to occur.  The script uses `dconf` which requires the `DISPLAY` variable to be set.  This can be set in the crontab before the script is called.
 
+However, the `DISPLAY` variable was not enough. These cron jobs still don't work.  I get an error message about dbus-launch failing.  For now, I'm back to running the script manually after 5pm.  I will continue to research and update this post when I get it working.
+
 ```bash
 DISPLAY=:0
 0 17 * * * $HOME/dotfiles/gnome-terminal-colors-solarized/set_light.sh Default --skip-dircolors
