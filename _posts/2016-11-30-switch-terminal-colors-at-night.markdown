@@ -14,9 +14,9 @@ I typically use Solarized Dark during the day.  However, when Redshift starts wo
 
 However, I ran into another problem with this script.  It would not run correctly from cron since it uses `dconf` (on Ubuntu 16.04) and the `$DBUS_SESSION_BUS_ADDRESS` is not available in the limited cron environment.
 
-I finally found this great [answer on stackoverflow][8] that explain how to get a correct `$DBUS_SESSION_BUS_ADDRESS` with cron enviroment.  I then created the following short script to change the only two parameters that I care about, and `background-color` and the `foreground-color` in my Default profile.
+I finally found this great [answer on stackoverflow][8] that explain how to get a correct `$DBUS_SESSION_BUS_ADDRESS` with cron enviroment.  I then created the following short script to change the only three parameters that I care about, `background-color`, `foreground-color`, and `bold-color` in my Default profile.
 
-The first three lines are the important part for getting the script to run from cron.  The profile id in the code below can be found from the gnome-terminal profile preferences window. The [Gnome terminal solarized script][7] includes code to extract this information.  
+The first three lines are the important part for getting the script to run from cron.
 
 ```bash
 export DISPLAY=:0
@@ -50,7 +50,7 @@ else
   echo "Requires parameter of light or dark"
 fi
 ```
-[See this file on Github][9]
+[This file on Github][9]
 
 I then added the following two lines via `crontab -e`
 
