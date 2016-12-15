@@ -2,7 +2,7 @@
 layout: post
 title:  "Change Gnome Terminal Colors by Time of Day"
 date:   2016-11-30 11:08:00 -0500
-modified: 2016-12-15 14:44 -0500
+modified: 2016-12-15 17:31 -0500
 categories: technology
 tags: linux, terminal, cron
 comments: true
@@ -50,6 +50,7 @@ else
   echo "Requires parameter of light or dark"
 fi
 ```
+[See this file on Github][9]
 
 I then added the following two lines via `crontab -e`
 
@@ -83,3 +84,4 @@ This doesn't make vim change immediately at 5 pm.  However, I can see a thin out
 [6]: https://github.com/AntoniosHadji/dotfiles/blob/master/dircolors
 [7]: https://github.com/Anthony25/gnome-terminal-colors-solarized
 [8]: http://stackoverflow.com/questions/10374520/gsettings-with-cron/19666729#19666729
+[9]: https://github.com/AntoniosHadji/dotfiles/blob/master/term-color.sh
