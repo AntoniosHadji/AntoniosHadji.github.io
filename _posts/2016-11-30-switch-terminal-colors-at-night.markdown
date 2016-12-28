@@ -2,7 +2,7 @@
 layout: post
 title:  "Change Gnome Terminal Colors by Time of Day"
 date:   2016-11-30 11:08:00 -0500
-modified: 2016-12-15 17:31 -0500
+modified: 2016-12-28 12:45 -0500
 categories: technology
 tags: linux, terminal, cron
 comments: true
@@ -19,13 +19,20 @@ I finally found this great [answer on stackoverflow][8] that explain how to get 
 The first three lines are the important part for getting the script to run from cron.
 
 ```bash
+
+#!/bin/bash
+# inspired by https://github.com/Anthony25/gnome-terminal-colors-solarized
+# cron script to switch terminal colors in the evening
+
+# Set up environment if necessary
 export DISPLAY=:0
-
-# http://stackoverflow.com/questions/10374520/gsettings-with-cron
-PID=$(pgrep gnome-terminal)
-export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
-
-profile_id="$(dconf read /org/gnome/terminal/legacy/profiles:/default|sed s/\'//g)"
+# -z True if the length of string is zero.
+if [ -z $DBUS_SESSION_BUS_ADDRESS ]; then
+  # http://stackoverflow.com/questions/10374520/gsettings-with-cron
+  PID=$(pgrep gnome-session)
+  export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
+fi
+[ -z $DBUS_SESSION_BUS_ADDRESS ] && exit
 
 # http://ethanschoonover.com/solarized
 # light
@@ -37,31 +44,48 @@ base03='#00002b2b3636' # background
 base0='#838394949696'  # body text/default code/primary content
 base1='#9393a1a1a1a1'  # optional emphasized content
 
-# http://www.tldp.org/LDP/abs/html/comparison-ops.html
-if [ "$1" = "light" ]; then
-  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/background-color "'$base3'"
-  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/foreground-color "'$base00'"
-  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/bold-color "'$base01'"
-elif [ "$1" = "dark" ]; then
+profile_id="$(dconf read /org/gnome/terminal/legacy/profiles:/default|sed s/\'//g)"
+# echo $profile_id >> /home/antonios/terminal-color.log
+# http://www.tldp.org/LDP/abs/html/functions.html
+set_dark() {
   dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/background-color "'$base03'"
   dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/foreground-color "'$base0'"
   dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/bold-color "'$base1'"
+}
+
+set_light() {
+  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/background-color "'$base3'"
+  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/foreground-color "'$base00'"
+  dconf write /org/gnome/terminal/legacy/profiles:/:$profile_id/bold-color "'$base01'"
+}
+
+# http://www.tldp.org/LDP/abs/html/comparison-ops.html
+# quotes needed here, otherwise error when no arguments
+if [ "$1" = "light" ]; then
+  set_light
+elif [ "$1" = "dark" ]; then
+  set_dark
 else
-  echo "Requires parameter of light or dark"
+  # http://www.tldp.org/LDP/abs/html/quotingvar.html
+  # quotes not needed in this case, because value will always be single word (number)
+  if [ "$(date +%H)" -ge 17 ]; then
+    set_light
+  else
+    set_dark
+  fi
 fi
 ```
 [This file on Github][9]
 
-I then added the following two lines via `crontab -e`
+I then added the following line via `crontab -e`
 
 ```bash
 0 17 * * * ~/dotfiles/term-color.sh light
-0 6 * * * ~/dotfiles/term-color.sh dark
 ```
 
-This setup switches all open terminals from dark to light at 5 pm.  This has the added benefit of being a reminder to wrap up my work day when the screen turns to the light color scheme.   My computer is set to wake at 6am so at 6am the color scheme changes back to dark.
+This setup switches all open terminals from dark to light at 5 pm.  This has the added benefit of being a reminder to wrap up my work day when the screen turns to the light color scheme.  This only works while I am logged in.  Anh that is OK since I only need the switch when I am on my computer.  I also run this script when I login to make sure that the terminal is the correct color for the time of day.  That part is set up in the graphical Startup Applications app in Ubuntu.  
 
-For this to work correctly in Vim solarized colorscheme I added these lines to my `.vimrc`:
+One more step is required for this to work correctly in Vim solarized colorscheme.  I added these lines to my `.vimrc`:
 
 ```vim
 let hour = strftime("%H")
@@ -74,7 +98,9 @@ endif
 colorscheme solarized
 ```
 
-This doesn't make vim change immediately at 5 pm.  However, I can see a thin outline of the terminal color outside of vim in gnome-terminal.  
+This doesn't make vim change immediately at 5 pm.  However, I can see a thin outline of the terminal color outside of vim in gnome-terminal.  This is enough for a reminder it's time to wrap up.  And if I exit and restart vim it will be in light solarized color scheme.
+
+A task for another day is to figure out how to trigger a time based action in vim.  
 
 [1]: http://ethanschoonover.com/solarized
 [2]: http://jonls.dk/redshift/
