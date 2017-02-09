@@ -100,9 +100,12 @@ colorscheme solarized
 
 This doesn't make vim change immediately at 5 pm.  However, I can see a thin outline of the terminal color outside of vim in gnome-terminal.  This is enough for a reminder it's time to wrap up.  And if I exit and restart vim it will be in light solarized color scheme.
 
-if using neovim, there is a timer available to trigger this change within neovim.  I've been testing and the code below works, but the timer accuracy is only within 1 minute.  This is good enough (for now) for my purposes so I added the following code to my vimrc.
+If using neovim, there is a timer available to trigger this change within neovim.  I've been testing the code below and it works.
 
 ```vim
+let hour = strftime("%H")
+let minute = strftime("%M")
+let second = strftime("%S")
 if hour >= 17
   set background=light
 else
@@ -114,13 +117,13 @@ if has('nvim')
     func ColorHandler(timer)
       set background=light
     endfunction
-    let timer = timer_start((17-hour)*60*60*1000-(minute*60*1000), 'ColorHandler')
+    let timer = timer_start((17-hour)*60*60*1000-(minute*60*1000)-(second*1000), 'ColorHandler')
   endif
 endif
 colorscheme solarized
 ```
 
-You may be thinking that running a timer is too much overhead for this.  I did not notice any performance hit.  The timer goes off with 1.1 minutes of 5pm so I'm happy with the result and this even encouraged me to make the switch to using neovim as my primary editor.
+You may be thinking that running a timer is too much overhead for this.  I did not notice any performance hit.  This has also encouraged me to make the switch to using neovim as my primary editor.
 
 If this post was interesting or useful to you I would love to hear your comments below.  
 
