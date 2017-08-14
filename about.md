@@ -4,6 +4,7 @@ title: About
 modified: 2016-12-07 10:56 -0500
 permalink: /about/
 ---
+[Resume][r]
 
 > **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
 
@@ -29,3 +30,4 @@ My unique ability is deconstructing what is known, envisioning what could be, an
 
 [sf]: http://amzn.to/2bXbU8j
 [ua]: http://amzn.to/2bsLsDM
+[r]: https://s3.amazonaws.com/storage-hadji/AntoniosHadjigeorgalis_RESUME.pdf
