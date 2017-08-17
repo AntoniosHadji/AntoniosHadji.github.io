@@ -9,10 +9,22 @@ collection: books
 The clips below are taken directly from my highlights as I read this book.  Reference below to 'I' is referring to the author.  I will mark any comments I add as my own thoughts in bold beginning with **Note:**.
 <iframe type="text/html" width="212" height="362" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B00X47ZVXM&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_6BH1wb0R7ZV5Z&tag=hadji-20" ></iframe>
 
-
-The Deep Work Hypothesis: The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive.   
+**The Deep Work Hypothesis:** The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive.   
 
 This book has two goals, pursued in two parts. The first, tackled in Part 1, is to convince you that the deep work hypothesis is true. The second, tackled in Part 2, is to teach you how to take advantage of this reality by training your brain and transforming your work habits to place deep work at the core of your professional life.   
+
+## Contents:  
+**Part 1: The Idea**  
+Chapter #1: Deep Work is Valuable  
+Chapter #2: Deep Work is Rare  
+Chapter #3: Deep Work is Meaningful  
+
+**Part 2: The Rules**  
+Rule #1: Work Deeply  
+Rule #2: Embrace Boredom  
+Rule #3: Quit Social Media  
+Rule #4: Drain the Shallows  
+
 
 ## Chapter One: Deep Work Is Valuable   
 
