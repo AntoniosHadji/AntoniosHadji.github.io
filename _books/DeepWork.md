@@ -359,17 +359,10 @@ pause a moment before replying and take the time to answer the following key pro
 
 Tip #3: Don’t Respond   
 
-Professorial E-mail Sorting: Do not reply to an e-mail message if any of the following applies: • It’s ambiguous or otherwise makes it hard for you to generate a reasonable response. • It’s not a question or proposal that interests you. • Nothing really good would happen if you did respond and nothing really bad would happen if you didn’t.   
+Professorial E-mail Sorting: Do not reply to an e-mail message if any of the following applies:  
+* It’s ambiguous or otherwise makes it hard for you to generate a reasonable response.  
+* It’s not a question or proposal that interests you.  
+* Nothing really good would happen if you did respond and nothing really bad would happen if you didn’t.   
 
-## Contents
-Welcome
-Introduction
-PART 1: The Idea
- - Chapter 1: Deep Work Is Valuable
- - Chapter 2: Deep Work Is Rare
- - Chapter 3: Deep Work Is Meaningful
-PART 2: The Rules
- - Rule #1: Work Deeply
- - Rule #2: Embrace Boredom
- - Rule #3: Quit Social Media
- - Rule #4: Drain the Shallows Conclusion   
+
+[Table of Contents](#contents)
