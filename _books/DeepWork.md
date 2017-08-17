@@ -319,7 +319,7 @@ Put more thought into your leisure time. In other words, this strategy suggests 
 
 Bennett, to his credit, anticipated this complaint. As he argues, such worries misunderstand what energizes the human spirit: What? You say that full energy given to those sixteen hours will lessen the value of the business eight? Not so. On the contrary, it will assuredly increase the value of the business eight. One of the chief things which my typical man has to learn is that the mental faculties are capable of a continuous hard activity; they do not tire like an arm or a leg. All they want is change—not rest, except in sleep.   
 
-## Rule \#4:  Drain the Shallows   
+## Rule \#4: Drain the Shallows   
 
 the role of shallow work. As Fried expands: Very few people work even 8 hours a day. You’re lucky if you get a few good hours in between all the meetings, interruptions, web surfing, office politics, and personal business that permeate the typical workday. Fewer official working hours helps squeeze the fat out of the typical workweek. Once everyone has less time to get their stuff done, they respect that time even more. People become stingy with their time and that’s a good thing. They don’t waste it on things that just don’t matter. When you have fewer hours you usually spend them more wisely.   
 
