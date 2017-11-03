@@ -9,9 +9,9 @@
 title: Antonios Hadjigeorgalis
 email: Antonios@Hadji.co
 description: > # this means to ignore newlines until "baseurl:"
-  Entrepreneur, philosopher, scientist.</br>
-  Constantly striving to improve everything I touch.</br>
-  Business, technology, mind & body power
+  Engineer</br>
+  Constantly striving to improve everything I touch</br>
+  Technology, business, mind & body power
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://antonioshadji.github.io" # the base hostname & protocol for your site
 permalink: /:title/
