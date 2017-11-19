@@ -27,7 +27,7 @@ disqusid: antonioshadji
 markdown: kramdown
 
 # Gems
-gems:
+plugins:
   - jekyll-feed
 
 # Collection settings
