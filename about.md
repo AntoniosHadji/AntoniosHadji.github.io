@@ -1,9 +1,11 @@
 ---
 layout: page
 title: About
-modified: Fri 03 Nov 2017 14:34:59 EDT
+modified: Sat 26 May 2018 12:59:07 EDT
 permalink: /about/
 ---
+
+> **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
 
 > **Engineer:** a person who applies logic, science, and mathematics to solve practical problems while optimizing for a specific outcome.
 
