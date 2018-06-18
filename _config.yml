@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Constantly striving to improve everything I touch:</br>
   Technology, business, cognitive & physical performance
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://antonioshadji.github.io" # the base hostname & protocol for your site
+url: "https://www.hadji.co" # the base hostname & protocol for your site
 permalink: /:title/
 
 # Social settings
