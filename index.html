@@ -4,29 +4,15 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Book Notes</h1>
-  <p>My full book lists are currently on Goodreads.</p>
-  <ul>
-    <li> <a href="https://www.goodreads.com/review/list/33094559?shelf=currently-reading">
-        Books I am currently actively reading.</a>
-    </li>
-    <li> <a href="https://www.goodreads.com/review/list/33094559-antonios-hadjigeorgalis?order=d&shelf=read&sort=date_read">
-        Books I have read.</a>
-    </li>
-    <li> <a href="https://www.goodreads.com/review/list/33094559-antonios-hadjigeorgalis?order=d&shelf=to-read&sort=date_added">
-        Books I want to read.</a>
-    </li>
-  </ul>
-  <p>
-    Below are copies of my notes from some of my favorite books.
-  </p>
+  <h1 class="page-heading">Posts</h1>
+
   <ul class="post-list">
-    {% for book in site.books reversed %}
+    {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ book.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
