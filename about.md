@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-modified: Sat 26 May 2018 12:59:07 EDT
+title: About Me
+modified: Thu 28 Jun 2018 20:01:31 EDT
 permalink: /about/
 ---
 
