@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-11 20:00:24 -0500
-modified: 2016-09-16 15:04:22 -0400
+modified: Fri 29 Jun 2018 11:57:14 EDT
 categories: technology
 tags: jekyll
 comments: true
@@ -101,7 +101,7 @@ title: Books
 {% endhighlight %}
 
 1. Add a title to the yaml front matter `title: Books`
-2. Change the <h1> from 'Posts' to 'Book Notes'
+2. Change the **h1** from 'Posts' to 'Book Notes'
 3. Change references to `post` to `book` except for css class names.  I did not choose to change the css to look different than the posts.
 4. Change the for loop to:
 {% highlight liquid %}
@@ -119,6 +119,8 @@ An added benefit to adding the `books.html` file next to the default `index.html
 To create an about page on my site and have it accessible via the menu, all I had to do was add an `about.md` markdown file in the root directory and Jekyll did everything else.
 
 ## Custom Url
+
+**UPDATE 2018:** Github now has support for https on custom domains.  Just include a file named 'CNAME' with your custom domain and [update your DNS](https://help.github.com/articles/setting-up-a-www-subdomain/).
 
 Currently my Jekyll site is reachable from `hadji.co` or `www.hadji.co` via URL forwarding set up in my DNS. On [Github Pages][gp] I can have the site show up with my custom url by including a `CNAME` file in my github repository.  I've been debating the merits of that since I lose the https functionality that is available for free with my github account  
 
