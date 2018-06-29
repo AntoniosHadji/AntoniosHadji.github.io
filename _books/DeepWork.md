@@ -1,4 +1,5 @@
 ---
+# vim: ft=pandoc
 layout: post
 title:  "Deep Work: Rules for Focused Success in a Distracted World"
 date:   2016-01-31 09:00:00 -05:00
@@ -31,7 +32,7 @@ This book has two goals, pursued in two parts. The first, tackled in Part 1, is 
 
 Why have Silver, Hansson, and Doerr done so well? There are two types of answers to this question. The first are micro in scope and focus on the personality traits and tactics that helped drive this trio’s rise. The second type of answers are more macro in that they focus less on the individuals and more on the type of work they represent.   
 
-“We are in the early throes of a Great Restructuring,” Brynjolfsson and McAfee explain early in their book. “Our technologies are racing ahead but many of our skills and organizations are lagging behind.”   
+We are in the early throes of a Great Restructuring,” Brynjolfsson and McAfee explain early in their book. “Our technologies are racing ahead but many of our skills and organizations are lagging behind.”   
 
 The High-Skilled Workers Brynjolfsson and McAfee call the group personified by Nate Silver the “high-skilled” workers.   
 
