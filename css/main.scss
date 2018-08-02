@@ -45,8 +45,14 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+// bootstrap 4.1.2 components functions, variables, mixins must be loaded in this order
+// bootstrap tables is specifically the code I wanted
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "functions",
+        "variables",
+        "mixins",
+        "tables"
 ;
