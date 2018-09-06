@@ -15,7 +15,7 @@ email: Antonios@Hadji.co
 description: > # this means to ignore newlines until "baseurl:"
   Entrepreneur+Engineer</br>
   Constantly striving to improve everything I touch:</br>
-  Technology, business, cognitive & physical performance
+  Business strategy, technology solutions, cognitive & physical performance
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.hadji.co" # the base hostname & protocol for your site
 permalink: /:title/
