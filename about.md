@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About Me
-modified: Thu 28 Jun 2018 20:01:31 EDT
+modified: Sat 27 Oct 2018 14:56:47 EDT
 permalink: /about/
 ---
 
-> **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
-
 > **Engineer:** a person who applies logic, science, and mathematics to solve practical problems while optimizing for a specific outcome.
+
+> **Entrepreneur:** as defined by the French economist J.B. Say in the 1800's,  "Someone who shifts economic resources out of an area of lower, and into an area of higher productivity and greater yield"
 
 ## My Top 5 [Strengths][sf]:  
 
