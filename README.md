@@ -3,10 +3,10 @@ AntoniosHadji.github.io
 
 Install prerequisites:
 
-`gem install --user-install jekyll bundler`
+`gem install --user-install github-pages`
 
 Launch local server:
 
-`bundle exec jekyll serve`
+`jekyll serve`
 
 
